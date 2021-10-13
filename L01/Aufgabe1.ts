@@ -1,9 +1,9 @@
 namespace HowIMetYourMotherPoem {
-    let noun: string [] = ["Daenerys Targaryen ", "Jon Snow ", "Arya Stark ", "Sansa Stark ", "Eddard Stark ", "Joffrey Baratheon "];
-    let verb: string [] = ["kauft", "benutzt", "vergisst", "sucht", "liebt", "hasst"];
-    let object: string [] = [" Schwerter", " Tröne", " Riesen", " Kronen", " Kriege", " Drachen"];
+    let noun: string [] = ["Ted ", "Marshall ", "Lily ", "Robin ", "Barney "];
+    let verb: string [] = ["kauft", "denkt an", "lacht über", "sucht", "liebt", "hasst"];
+    let object: string [] = [" rote Cowboystiefel", " ein Sandwitch", " Robin", " Kanada", " das McLaren's"];
     
-    for (let i: number = 6 ; i >= 1; i--) {
+    for (let i: number = 5 ; i >= 1; i--) {
         let finalsentence: string = getVerse(noun, verb, object);
         console.log(finalsentence);
     }

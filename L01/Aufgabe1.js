@@ -1,9 +1,9 @@
-var GameOfThronesPoem;
-(function (GameOfThronesPoem) {
-    var noun = ["Daenerys Targaryen ", "Jon Snow ", "Arya Stark ", "Sansa Stark ", "Eddard Stark ", "Joffrey Baratheon "];
-    var verb = ["kauft", "benutzt", "vergisst", "sucht", "liebt", "hasst"];
-    var object = [" Schwerter", " Tröne", " Riesen", " Kronen", " Kriege", " Drachen"];
-    for (var i = 6; i >= 1; i--) {
+var HowIMetYourMotherPoem;
+(function (HowIMetYourMotherPoem) {
+    var noun = ["Ted ", "Marshall ", "Lily ", "Robin ", "Barney "];
+    var verb = ["kauft", "denkt an", "lacht über", "sucht", "liebt", "hasst"];
+    var object = [" rote Cowboystiefel", " ein Sandwitch", " Robin", " Kanada", " das McLaren's"];
+    for (var i = 5; i >= 1; i--) {
         var finalsentence = getVerse(noun, verb, object);
         console.log(finalsentence);
     }
@@ -17,4 +17,5 @@ var GameOfThronesPoem;
         _object.splice(randomNumberobject, 1);
         return satzbau;
     }
-})(GameOfThronesPoem || (GameOfThronesPoem = {}));
+})(HowIMetYourMotherPoem || (HowIMetYourMotherPoem = {}));
+//# sourceMappingURL=Aufgabe1.js.map
